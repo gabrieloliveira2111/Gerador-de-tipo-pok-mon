@@ -71,6 +71,3 @@ while novamente == "S":
     print(f"Seu tipo é: {tipo2}")
     novamente = str(input("Gostaria de ver o seu tipo Pokémon novamente? S/N : ")).upper()
     
-     # para comentar tudo seleciona ctrl + k + c
-     # para tirar os comentario seleciona ctrl + k + u
-
