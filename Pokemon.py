@@ -6,29 +6,29 @@ while novamente == "S":
 
     while tipo == "":
 
-        if "jan" in mes or mes == 1:
+        if "jan" in mes or mes == "1":
             tipo = "Ground"
-        elif "fev" in mes or mes == 2:
+        elif "fev" in mes or mes == "2":
             tipo = "Fighting"
-        elif "mar" in mes or mes == 3:
+        elif "mar" in mes or mes == "3":
             tipo = "Normal"
-        elif "abr" in mes or mes == 4:
+        elif "abr" in mes or mes == "4":
             tipo = "Steel"  
-        elif "mai" in mes or mes == 5:
+        elif "mai" in mes or mes == "5":
             tipo = "Flying"
-        elif "jun" in mes or mes == 6:
+        elif "jun" in mes or mes == "6":
             tipo = "Psychic"
-        elif "jul" in mes or mes == 7:
+        elif "jul" in mes or mes == "7":
             tipo = "Normal"
-        elif "ago" in mes or mes == 8:
+        elif "ago" in mes or mes == "8":
             tipo = "Ground"
-        elif "set" in mes or mes == 9:
+        elif "set" in mes or mes == "9":
             tipo = "Flying"
-        elif "out" in mes or mes == 10:
+        elif "out" in mes or mes == "10":
             tipo = "Psychic"
-        elif "nov" in mes or mes == 11:
+        elif "nov" in mes or mes == "11":
             tipo = "Fighting"
-        elif "dez" in mes or mes == 12:
+        elif "dez" in mes or mes == "12":
             tipo = "Steel"
         else:
             print("Escolha Inválida")
